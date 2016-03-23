@@ -213,7 +213,7 @@ module.exports = function (grunt) {
 
         nwjs: {
             options: {
-                version: '0.13.0',
+                version: '0.13.0', // need the SDK version for devtools
                 build_dir: './build', // Where the build version of my nwjs app is saved
                 keep_nw: true,
                 embed_nw: false,
