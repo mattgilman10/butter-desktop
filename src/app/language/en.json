@@ -516,5 +516,9 @@
 	},
 	"thriller,conspiracy,indie": "thriller,conspiracy,indie",
 	"Animation, Comedy, Fantasy": "Animation, Comedy, Fantasy",
-	"blah": "blah"
+	"blah": "blah",
+	"Documentary, History": "Documentary, History",
+	"documentary,california,economy": "documentary,california,economy",
+	"Awards": "Awards",
+	"Cool": "Cool"
 }
