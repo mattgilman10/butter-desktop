@@ -48,7 +48,7 @@ module.exports = function (grunt) {
     var pkgJson = grunt.file.readJSON('package.json');
     var currentVersion = pkgJson.version;
 
-	require('time-grunt')(grunt);
+    require('time-grunt')(grunt);
     require('load-grunt-tasks')(grunt);
 
     grunt.registerTask('default', [
