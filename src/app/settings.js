@@ -32,7 +32,7 @@ Settings.providers = {
         order: 1,
         name: 'Movies',
         uri: ['vodo', 'archive',
-          //'stremio?auth={"url":"http://api8.herokuapp.com","key":"423f59935153f2f5d2db0f6c9b812592b61b3737"}&url=http://localhost:9005'
+            //'stremio?auth={"url":"http://api8.herokuapp.com","key":"423f59935153f2f5d2db0f6c9b812592b61b3737"}&url=http://localhost:9005'
         ]
     },
     tvshow: {
@@ -327,10 +327,10 @@ var AdvSettings = {
                     tryNextEndpoint();
                 });
             }).setTimeout(5000, function () {
-				win.warn('[%s] Endpoint timed out',
-					_url.hostname);
-				request.abort();
-				tryNextEndpoint();
+                win.warn('[%s] Endpoint timed out',
+                    _url.hostname);
+                request.abort();
+                tryNextEndpoint();
             });
         } else {
             tls.connect(443, _url.hostname, {
