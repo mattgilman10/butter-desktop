@@ -37,7 +37,9 @@
             'last added',
             'year',
             'title',
-            'rating'
+            'rating',
+            'awards',
+            'cool'
         ],
 
         sorters_tv: [
