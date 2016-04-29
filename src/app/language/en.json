@@ -520,5 +520,13 @@
 	"Documentary, History": "Documentary, History",
 	"documentary,california,economy": "documentary,california,economy",
 	"Awards": "Awards",
-	"Cool": "Cool"
+	"Cool": "Cool",
+	"web series,zany": "web series,zany",
+	"Fun": "Fun",
+	"Adventure, Comedy, Family": "Adventure, Comedy, Family",
+	"Local": "Local",
+	"%s minute remaining": {
+		"one": "%s minute remaining",
+		"other": "%s minutes remaining"
+	}
 }
