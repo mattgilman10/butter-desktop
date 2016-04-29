@@ -327,7 +327,7 @@ var AdvSettings = {
                     tryNextEndpoint();
                 });
             }).setTimeout(5000, function () {
-                win.warn('[%s] Endpoint timed out',_url.hostname);
+                win.warn('[%s] Endpoint timed out', _url.hostname);
                 request.abort();
                 tryNextEndpoint();
             });
